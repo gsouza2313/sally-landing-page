@@ -14,20 +14,26 @@
             <div class="size-12"><img src="./img/logo.png" alt="logo do site"></div>
             <h1 class="text-4xl">Portfólio</h1>
         </div>
-        <div class="size-8"><img src="img/wh.png" alt="hambúrguer branco"></div>
+        <div class="hidden lg:flex lg:flex-row items-center gap-8">
+            <a class="text-2xl hover:text-main transition duration-200" href="#">Início</a>
+            <a class="text-2xl hover:text-main transition duration-200" href="#">Projetos</a>
+            <a class="text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:bg-teal-600 transition duration-200" href="https://www.byronsolutions.com" target="_blank">Fale Conosco
+            </a>
+        </div>
+        <div class="size-8 lg:hidden"><img src="img/wh.png" alt="hambúrguer branco"></div>
     </header>
-    <section class="px-6 py-16 bg-white flex flex-col items-center">
-        <div class="max-w-100 max-h-100">
+    <section class="px-6 py-16 lg:px-30 bg-white flex flex-col lg:flex-row-reverse min-h-screen items-center">
+        <div class="lg:w-1/2 max-w-100 max-h-100 lg:max-h-175 lg:max-w-175">
             <img src="./img/sally.png" alt="sally, mascote da bs">
         </div>
-        <div class="flex flex-col gap-12">
-            <div class="text-center flex flex-col gap-8 items-center">
-                <div class="flex flex-col gap-8">
+        <div class="lg:w-1/2 max-w-140 flex flex-col gap-12">
+            <div class="text-center lg:text-start flex flex-col gap-8 items-center lg:items-start">
+                <div class="flex flex-col gap-8 max-w-3/4">
                     <h2 class="text-5xl">Conheça a <span class="text-secondary">Sally</span></h2>
                     <div class="flex flex-col gap-4">
                         <h3 class="text-2xl">
                             A mascote da
-                            <span class="text-secondary">byron.solutions</span>
+                            <span class="text-secondary">byron.solutions</span>!
                         </h3>
                         <p class="text-base">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam molestias non repellat
@@ -36,11 +42,11 @@
                         </p>
                     </div>
                 </div>
-                <button
-                    class="text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:bg-teal-600 transition duration-200">SAIBA
-                    MAIS</button>
+                <a
+                    class="text-2xl font-semibold text-white bg-main px-4 py-2 rounded-2xl hover:bg-teal-600 transition duration-200" href="https://www.byronsolutions.com" target="_blank">SAIBA
+                    MAIS</a>
             </div>
-            <div class="flex flex-row justify-between items-center">
+            <div class="flex flex-row justify-between items-center lg:justify-start lg:gap-8">
                 <p class="text-2xl">Nos contate!</p>
                 <div class="flex flex-row gap-6">
                     <div class="size-12">
